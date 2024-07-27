@@ -246,29 +246,27 @@
 
 .terhat{
     height:460px ;
-    width:1140px;
-    margin: 30px auto;
-    background-color: white;
-    display: flex;
-    justify-content: center;
+    width: 1440px;
+    margin:10px auto;
+    background-color:  rgb(255, 255, 255);
     margin-bottom: 100px;
-
+    margin-top:150px;
+    
 }
+
 .tergetdiv{
 
     display: flex;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
-    border-radius: 10px;
-    margin-top: 70px;
-
-
 }
-.tergetdiv .tetitle{
+.title-1{
  text-align: center;
- width: 946px;
+ width: 852px;
  margin: 0px auto;
  font-family: Azeret Mono;
+ text-align: center;
 
 }
 .tetitle h1{
@@ -280,24 +278,25 @@
 
 .section{
     width: 1140px;
-    height: 299px;
+    height:300px;
     display: flex;
-    flex-direction:row;
-    margin-top:48px;
+    gap:20px;
+    justify-content: space-between;
     align-items: center;
-
+    flex-direction:row;
+    margin: 1px auto;
+    margin-top: 40px;
 }
 .hcj{
-    width: 270px;
-    height: 219px;
+    /* width: 284px;
+    height: 219px; */
     text-align: start;
-    padding:40px;
-
-
+    
 }
 .sec-div{
+    padding:40px;
     width: 364px;
-    height: 299px;
+    height: 230px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -326,10 +325,11 @@
     background-color: rgba(255, 76, 30, 0.05);
     text-align: start;
 }
-.css {
+.tanvi{
     background-color: rgba(0, 76, 232, 0.05);
     text-align: start;
 }
+
 .js{
     background-color: rgba(255, 223, 0, 0.05);
     text-align: start;
@@ -392,16 +392,21 @@
 
 
 /* footer commit */
-
+.commit{
+    margin-top: 100px;
+}
 .cmttitle{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 20px;
     width:80%;
     background-color: white;
     margin:30px auto;
     margin-top: 90px;
+    width: 1140px;
+    height: 36px;
+    border-radius: 16px;
+    margin: 0px auto;
 }
 .cmttitle h1{
  font-size: 20px;
@@ -460,7 +465,7 @@
 .next-img{
 
     /* height: 88px; */
-    width: 140px;
+    width:90px;
     background-size:cover ;
     text-align: center;
 }
@@ -471,13 +476,19 @@
     align-items: center;
     gap:24px;
     /* height:200px; */
-    border-radius: 10px;
-    box-shadow: 1PX 1PX 1PX 1PX black ;
+    border-radius: 16px;
+    box-sizing: border-box;
     text-align: start;
     padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: rgb(255, 255, 255);
+    width: 1140px;
+   height: 219px;
 }
 .re{
     display: flex;
     gap: 10px;
-    flex-direction: column;
+    flex-direction:column;
+    width: 1060px;
+    height: 139px;
 }
