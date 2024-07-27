@@ -25,6 +25,15 @@
  font-family: Azeret Mono;
 }
 
+.hbtn a{
+
+ color: white;
+ text-decoration: none;
+ font-family: Azeret Mono;
+ font-size:18px;
+ font-weight: 500;
+}
+
 .maindiv{
     width:998px ;
     margin:0px auto;
@@ -63,10 +72,10 @@
 }
 .hbtn{
     background-color: black;
-    padding: 10px 30px;
+    padding: 21px 33px;
     text-align: center;
     color: white;
-    border-radius: 8px;
+    border-radius: 16px;
     border: none;
     cursor:pointer;
     margin-top: 35px;
@@ -392,7 +401,7 @@
 
 
 /* footer commit */
-.commit{
+#commit{
     margin-top: 100px;
 }
 .cmttitle{
